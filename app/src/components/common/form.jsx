@@ -20,7 +20,7 @@ class Form extends Component {
             errors[item.path[0]] = item.message
         }
 
-        console.log(errors)
+        // console.log(errors)
 
         return errors
 
