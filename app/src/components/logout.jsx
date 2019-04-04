@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
+import { logout } from '../services/authService'
 
 class Logout extends Component {
     
     componentDidMount() {
-        localStorage.removeItem('token')
-
+        logout()        
         window.location = '/'
     }
 
